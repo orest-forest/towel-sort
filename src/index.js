@@ -16,7 +16,7 @@
                     newArr.push(arr[i][j])
                 }
             } else {
-                for (let j = arr[i].length - 1; j => 0; j--) {
+                for (let j = arr[i].length - 1; j >= 0; j--) {
                     newArr.push(arr[i][j])
                 }
             }
